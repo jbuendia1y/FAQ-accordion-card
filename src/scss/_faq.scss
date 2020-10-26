@@ -1,0 +1,20 @@
+.FAQ{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em;
+    
+    &__tittle{
+        text-align: center;
+    }
+
+    &__separator{
+        background-color: $separate;
+        color: $separate;
+        width: 300px;
+
+
+        margin: .4em 0;
+        padding: 0;
+    }
+}

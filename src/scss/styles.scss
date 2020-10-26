@@ -1,0 +1,42 @@
+/* Variables */
+
+$color-bg1:hsl(273, 75%, 66%);
+$color-bg2:hsl(240, 73%, 65%);
+
+$color-text-click:hsl(238, 29%, 16%);
+$color-text-hover:hsl(14, 88%, 65%);
+
+$color-text-req:hsl(237, 12%, 33%);
+$color-text-res:hsl(240, 6%, 50%);
+
+$font:'Kumbh Sans', sans-serif;
+
+$separate:hsl(240, 5%, 91%);
+
+
+/* Imports */
+
+@import "container";
+@import "faq";
+@import "faq-item";
+@import "active";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+
+/* Base */
+
+body{
+    font-size: 12px;
+    background-image: linear-gradient($color-bg1, $color-bg2);
+    font-family: $font;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.attribution{
+    margin-top: auto;
+}

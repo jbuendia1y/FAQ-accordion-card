@@ -1,0 +1,27 @@
+.FAQ__item{
+    display: flex;
+    flex-direction: column;
+
+    &-req{
+        display: flex;
+        align-items: center;
+
+        &-tittle,&-img{
+            display: inline-block;
+            font-size: 13px;
+        }
+
+        &-img{
+            margin-left: auto;
+            width: 15px;
+            max-height: 100%;
+
+        }
+    }
+
+    &-res{
+        display: none;
+
+    }
+    
+}
