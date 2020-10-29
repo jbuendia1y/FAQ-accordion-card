@@ -5,9 +5,13 @@
     padding: 1em;
 
     @media screen and (min-width:1024px) {
-        width: 60%;
+        width: 85%;
         margin-left: 5em;
         margin-bottom: 5em;
+
+        position: relative;
+        right: -75px;
+        top: 25px;
     }
     
     &__tittle{

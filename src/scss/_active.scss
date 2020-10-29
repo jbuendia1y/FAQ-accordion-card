@@ -3,6 +3,10 @@
     transition: display 2s;
 }
 
+.answer-Active{
+    font-weight: 700;
+}
+
 .rotate-arrow{
     transform: rotate(180deg);
     transition: all 1s;

@@ -1,6 +1,7 @@
 /* Variables */
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
 .container {
   display: flex;
   flex-direction: column;
@@ -69,9 +70,12 @@
 }
 @media screen and (min-width: 1024px) {
   .FAQ {
-    width: 60%;
+    width: 85%;
     margin-left: 5em;
     margin-bottom: 5em;
+    position: relative;
+    right: -75px;
+    top: 25px;
   }
 }
 .FAQ__tittle {
@@ -122,6 +126,8 @@
 }
 .FAQ__item-req-tittle {
   cursor: pointer;
+  color: #4a4b5e;
+  font-weight: 400;
 }
 .FAQ__item-req-tittle:hover {
   color: #f47c57;
@@ -130,6 +136,7 @@
   margin-left: auto;
   width: 15px;
   max-height: 100%;
+  cursor: pointer;
 }
 .FAQ__item-res {
   color: #787887;
@@ -139,6 +146,10 @@
 .active {
   display: block;
   transition: display 2s;
+}
+
+.answer-Active {
+  font-weight: 700;
 }
 
 .rotate-arrow {
@@ -169,8 +180,8 @@
 .desktop__img-bg {
   z-index: 0;
   width: 280%;
-  right: -70px;
-  bottom: -150px;
+  right: -20px;
+  bottom: -170px;
 }
 
 .box {
@@ -193,6 +204,12 @@ body {
   flex-direction: column;
   align-items: center;
   height: 125vh;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
 .attribution {

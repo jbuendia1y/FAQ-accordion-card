@@ -23,7 +23,8 @@
 
         &-tittle{
             cursor: pointer;
-
+            color: $color-text-req;
+            font-weight: 400;
             &:hover{
                 color: $color-text-hover;
             }
@@ -33,7 +34,7 @@
             margin-left: auto;
             width: 15px;
             max-height: 100%;
-
+            cursor: pointer;
         }
     }
 
