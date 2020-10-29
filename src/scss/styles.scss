@@ -41,9 +41,13 @@ body{
     @media screen and (min-width:1024px){
         height: 100vh;
         width: 100vw;
+        overflow-x: hidden;
     }
 }
 
 .attribution{
     margin-top: auto;
+    @media screen and (min-width:1024px){
+        margin-top: 0;
+    }
 }
