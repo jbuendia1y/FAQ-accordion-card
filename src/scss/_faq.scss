@@ -3,9 +3,22 @@
     flex-direction: column;
 
     padding: 1em;
+
+    @media screen and (min-width:1024px) {
+        width: 60%;
+        margin-left: 5em;
+        margin-bottom: 5em;
+    }
     
     &__tittle{
+        color: $color-text-click;
         text-align: center;
+        font-size: 3em;
+        margin: .5em;
+
+        @media screen and (min-width:1024px) {
+            text-align: left;
+        }
     }
 
     &__separator{
@@ -13,8 +26,12 @@
         color: $separate;
         width: 300px;
 
-
         margin: .4em 0;
         padding: 0;
+
+        @media screen and (min-width:1024px) {
+            width: 70%;
+            margin-left: 1em;
+        }
     }
 }

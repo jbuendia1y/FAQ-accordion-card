@@ -9,9 +9,13 @@ const clickArrow = (b)=>{
     console.log(b)
     if(a==1){
         paragraph[b].classList.add('active');
+        arrow[b].classList.add('rotate-arrow');
+
         a=0
     }else if(a==0){
         paragraph[b].classList.remove('active');
+        arrow[b].classList.remove('rotate-arrow');
+        
         a=1
     }
 }

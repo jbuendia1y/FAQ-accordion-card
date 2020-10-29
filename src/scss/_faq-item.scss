@@ -1,14 +1,32 @@
 .FAQ__item{
     display: flex;
     flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    @media screen and (min-width:1024px) {
+        font-size: 13px;
+        width: 70%;
+    }
 
     &-req{
+
+        color: $color-text-req;
+
         display: flex;
         align-items: center;
 
         &-tittle,&-img{
             display: inline-block;
             font-size: 13px;
+        }
+
+        &-tittle{
+            cursor: pointer;
+
+            &:hover{
+                color: $color-text-hover;
+            }
         }
 
         &-img{
@@ -20,8 +38,8 @@
     }
 
     &-res{
+        color: $color-text-res;
         display: none;
-
     }
     
 }

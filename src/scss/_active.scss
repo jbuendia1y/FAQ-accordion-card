@@ -2,3 +2,8 @@
     display: block;
     transition: display 2s;
 }
+
+.rotate-arrow{
+    transform: rotate(180deg);
+    transition: all 1s;
+}
